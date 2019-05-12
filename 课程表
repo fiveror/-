@@ -1,0 +1,105 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+    <meta charset="utf-8"/>
+	<title>课程表</title>
+        <style type="text/css">
+            table{
+                border: 5px solid black;
+                border-collapse: collapse;
+                text-align: center;
+            }
+            tr,th,td{
+                width: 150px;
+                height: 60px;
+                border: 3px solid black;
+            }
+            a:hover {color: red}
+            b:hover {color: yellow}
+            c:hover {color: green}
+            .pointer{cursor: pointer;}
+        </style>
+    </head>
+    <body>
+        <table  align="center">
+            <caption><h1><a class="pointer">课程表</a></h1></caption>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th><b class="pointer">星期一</a></th>
+                    <th><b class="pointer">星期二</a></th>
+                    <th><b class="pointer">星期三</a></th>
+                    <th><b class="pointer">星期四</a></th>
+                    <th><b class="pointer">星期五</a></th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <th rowspan="4"><c class="pointer">上午</c></th>
+                    <td>web应用开发技术</td>
+                    <td>大学英语四级</td>
+                    <td>管理信息系统</td>
+                    <td>数据库原理及应用</td>
+                    <td>大学英语四级</td>
+                </tr>
+                <tr>
+
+                    <td>web应用开发技术</td>
+                    <td>大学英语四级</td>
+                    <td>管理信息系统</td>
+                    <td>数据库原理及应用</td>
+                    <td>大学英语四级</td>
+                </tr>
+                <tr>
+
+                    <td>毛泽东思想与中国特色社会主义理论体系概论</td>
+                    <td>管理科学基础</td>
+                    <td>毛泽东思想与中国特色社会主义理论体系概论</td>
+                    <td>管理科学基础</td>
+                    <td>运营管理</td>
+                </tr>
+                <tr>
+
+                    <td>毛泽东思想与中国特色社会主义理论体系概论</td>
+                    <td>管理科学基础</td>
+                    <td>毛泽东思想与中国特色社会主义理论体系概论</td>
+                    <td>管理科学基础</td>
+                    <td>运营管理</td>
+                </tr>
+                <tr>
+                    <th rowspan="4"><c class="pointer">下午</c></th>
+                    <td>管理信息系统</td>
+                    <td>形势与政策2</td>
+                    <td>会计学</td>
+                    <td>体育</td>
+                    <td>毛泽东思想与中国特色社会主义理论体系概论</td>
+                </tr>
+                <tr>
+
+                    <td>管理信息系统</td>
+                    <td>形势与政策2</td>
+                    <td>会计学</td>
+                    <td>体育</td>
+                    <td>毛泽东思想与中国特色社会主义理论体系概论</td>
+                </tr>
+                <tr>
+
+                    <td>电子商务</td>
+                    <td>数据库原理及应用</td>
+                    <td></td>
+                    <td>会计学</td>
+                    <td></td>
+                </tr>
+                <tr>
+
+                    <td>电子商务</td>
+                    <td>数据库原理及应用</td>
+                    <td></td>
+                    <td>会计学</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
